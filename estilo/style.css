@@ -1,0 +1,74 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: black;
+    background-image: url(../imagens/grafico.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+header {
+    width: 100vw;
+    height: 150px;
+    background-color: black;
+    color: white;
+}
+
+header h1 {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+header p {
+    text-align: center;
+}
+
+strong {
+    color: green;
+}
+
+section{
+    background-color: gray;
+    max-width: 650px;
+    margin: auto;
+    color: white;
+    line-height: 2em;
+}
+
+section.corretoras{
+    background-color: rgba(0, 100, 0, 0.779);
+    text-indent: 10px;
+    font-size: 1.1em;
+}
+
+section.corretoras ul {
+    list-style-position: inside;
+}
+
+section p {
+    padding: 10px;
+    padding-bottom: 20px;
+}
+
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+footer a {
+    color: green;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
