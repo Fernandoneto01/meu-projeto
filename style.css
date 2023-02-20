@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    width: 100vw;
+    height: 150px;
+    background-color: gray;
+}
+
+header h1 {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+header p {
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+}
